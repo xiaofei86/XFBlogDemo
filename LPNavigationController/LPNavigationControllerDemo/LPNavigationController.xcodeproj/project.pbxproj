@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2204E01CBE8C2600D90C74 /* UITableViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204DF1CBE8C2600D90C74 /* UITableViewGenerator.m */; };
+		AF2204E31CBF2E8700D90C74 /* LPOpaqueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204E21CBF2E8700D90C74 /* LPOpaqueNavigationController.m */; };
+		AF2204E61CBF2EB600D90C74 /* LPHiddenNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204E51CBF2EB600D90C74 /* LPHiddenNavigationController.m */; };
+		AF2204E91CBF2F0F00D90C74 /* LPTranslucentNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204E81CBF2F0F00D90C74 /* LPTranslucentNavigationController.m */; };
+		AF2204EC1CBF331900D90C74 /* LPHiddenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204EB1CBF331900D90C74 /* LPHiddenViewController.m */; };
+		AF2204F11CBF864700D90C74 /* LPOpaqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204F01CBF864700D90C74 /* LPOpaqueViewController.m */; };
+		AF2204F81CBF923800D90C74 /* HiddenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204F71CBF923800D90C74 /* HiddenViewController.m */; };
+		AF2204FB1CBF928300D90C74 /* HiddenViewControllerTranslucent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204FA1CBF928300D90C74 /* HiddenViewControllerTranslucent.m */; };
+		AF2204FE1CBF92A000D90C74 /* OpaqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2204FD1CBF92A000D90C74 /* OpaqueViewController.m */; };
+		AF2205011CBF92C200D90C74 /* OpaqueViewControllerTranslucent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2205001CBF92C200D90C74 /* OpaqueViewControllerTranslucent.m */; };
+		AF2205041CBF930700D90C74 /* LPTranslucentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2205031CBF930700D90C74 /* LPTranslucentViewController.m */; };
+		AF2205071CBF933E00D90C74 /* TranslucentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2205061CBF933E00D90C74 /* TranslucentViewController.m */; };
+		AF22050A1CBF934E00D90C74 /* TranslucentViewControllerTranslucent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2205091CBF934E00D90C74 /* TranslucentViewControllerTranslucent.m */; };
+		AF22050E1CBF9CD400D90C74 /* LPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF22050D1CBF9CD400D90C74 /* LPBaseViewController.m */; };
+		AF2205121CBFA21800D90C74 /* LPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2205111CBFA21800D90C74 /* LPBaseNavigationController.m */; };
+		AF2C2E2A1CBDD53300963156 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C2E211CBDD53300963156 /* AppDelegate.m */; };
+		AF2C2E2B1CBDD53300963156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2C2E221CBDD53300963156 /* Assets.xcassets */; };
+		AF2C2E2D1CBDD53300963156 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C2E251CBDD53300963156 /* main.m */; };
+		AF2C2E2F1CBDD53300963156 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C2E291CBDD53300963156 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF2204DE1CBE8C2600D90C74 /* UITableViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewGenerator.h; sourceTree = "<group>"; };
+		AF2204DF1CBE8C2600D90C74 /* UITableViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewGenerator.m; sourceTree = "<group>"; };
+		AF2204E11CBF2E8700D90C74 /* LPOpaqueNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPOpaqueNavigationController.h; sourceTree = "<group>"; };
+		AF2204E21CBF2E8700D90C74 /* LPOpaqueNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPOpaqueNavigationController.m; sourceTree = "<group>"; };
+		AF2204E41CBF2EB600D90C74 /* LPHiddenNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHiddenNavigationController.h; sourceTree = "<group>"; };
+		AF2204E51CBF2EB600D90C74 /* LPHiddenNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHiddenNavigationController.m; sourceTree = "<group>"; };
+		AF2204E71CBF2F0F00D90C74 /* LPTranslucentNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTranslucentNavigationController.h; sourceTree = "<group>"; };
+		AF2204E81CBF2F0F00D90C74 /* LPTranslucentNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTranslucentNavigationController.m; sourceTree = "<group>"; };
+		AF2204EA1CBF331900D90C74 /* LPHiddenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHiddenViewController.h; sourceTree = "<group>"; };
+		AF2204EB1CBF331900D90C74 /* LPHiddenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHiddenViewController.m; sourceTree = "<group>"; };
+		AF2204EF1CBF864700D90C74 /* LPOpaqueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPOpaqueViewController.h; sourceTree = "<group>"; };
+		AF2204F01CBF864700D90C74 /* LPOpaqueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPOpaqueViewController.m; sourceTree = "<group>"; };
+		AF2204F61CBF923800D90C74 /* HiddenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenViewController.h; sourceTree = SOURCE_ROOT; };
+		AF2204F71CBF923800D90C74 /* HiddenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenViewController.m; sourceTree = SOURCE_ROOT; };
+		AF2204F91CBF928300D90C74 /* HiddenViewControllerTranslucent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenViewControllerTranslucent.h; sourceTree = SOURCE_ROOT; };
+		AF2204FA1CBF928300D90C74 /* HiddenViewControllerTranslucent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenViewControllerTranslucent.m; sourceTree = SOURCE_ROOT; };
+		AF2204FC1CBF92A000D90C74 /* OpaqueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpaqueViewController.h; sourceTree = SOURCE_ROOT; };
+		AF2204FD1CBF92A000D90C74 /* OpaqueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpaqueViewController.m; sourceTree = SOURCE_ROOT; };
+		AF2204FF1CBF92C200D90C74 /* OpaqueViewControllerTranslucent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpaqueViewControllerTranslucent.h; sourceTree = SOURCE_ROOT; };
+		AF2205001CBF92C200D90C74 /* OpaqueViewControllerTranslucent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpaqueViewControllerTranslucent.m; sourceTree = SOURCE_ROOT; };
+		AF2205021CBF930700D90C74 /* LPTranslucentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTranslucentViewController.h; sourceTree = SOURCE_ROOT; };
+		AF2205031CBF930700D90C74 /* LPTranslucentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTranslucentViewController.m; sourceTree = SOURCE_ROOT; };
+		AF2205051CBF933E00D90C74 /* TranslucentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslucentViewController.h; sourceTree = SOURCE_ROOT; };
+		AF2205061CBF933E00D90C74 /* TranslucentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslucentViewController.m; sourceTree = SOURCE_ROOT; };
+		AF2205081CBF934E00D90C74 /* TranslucentViewControllerTranslucent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslucentViewControllerTranslucent.h; sourceTree = SOURCE_ROOT; };
+		AF2205091CBF934E00D90C74 /* TranslucentViewControllerTranslucent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslucentViewControllerTranslucent.m; sourceTree = SOURCE_ROOT; };
+		AF22050C1CBF9CD400D90C74 /* LPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseViewController.h; sourceTree = "<group>"; };
+		AF22050D1CBF9CD400D90C74 /* LPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseViewController.m; sourceTree = "<group>"; };
+		AF2205101CBFA21800D90C74 /* LPBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseNavigationController.h; sourceTree = "<group>"; };
+		AF2205111CBFA21800D90C74 /* LPBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseNavigationController.m; sourceTree = "<group>"; };
+		AF2C2E001CBDD30800963156 /* LPNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2C2E201CBDD53300963156 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LPNavigationControllerDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		AF2C2E211CBDD53300963156 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = LPNavigationControllerDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		AF2C2E221CBDD53300963156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LPNavigationControllerDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		AF2C2E241CBDD53300963156 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LPNavigationControllerDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		AF2C2E251CBDD53300963156 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LPNavigationControllerDemo/main.m; sourceTree = SOURCE_ROOT; };
+		AF2C2E281CBDD53300963156 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = LPNavigationControllerDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		AF2C2E291CBDD53300963156 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = LPNavigationControllerDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2C2DFD1CBDD30800963156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2204ED1CBF65FA00D90C74 /* Hidden */ = {
+			isa = PBXGroup;
+			children = (
+				AF2204E41CBF2EB600D90C74 /* LPHiddenNavigationController.h */,
+				AF2204E51CBF2EB600D90C74 /* LPHiddenNavigationController.m */,
+				AF2204EA1CBF331900D90C74 /* LPHiddenViewController.h */,
+				AF2204EB1CBF331900D90C74 /* LPHiddenViewController.m */,
+			);
+			name = Hidden;
+			sourceTree = "<group>";
+		};
+		AF2204EE1CBF860800D90C74 /* Opaque */ = {
+			isa = PBXGroup;
+			children = (
+				AF2204E11CBF2E8700D90C74 /* LPOpaqueNavigationController.h */,
+				AF2204E21CBF2E8700D90C74 /* LPOpaqueNavigationController.m */,
+				AF2204EF1CBF864700D90C74 /* LPOpaqueViewController.h */,
+				AF2204F01CBF864700D90C74 /* LPOpaqueViewController.m */,
+			);
+			name = Opaque;
+			sourceTree = "<group>";
+		};
+		AF2204F21CBF90E900D90C74 /* Translucent */ = {
+			isa = PBXGroup;
+			children = (
+				AF2204E71CBF2F0F00D90C74 /* LPTranslucentNavigationController.h */,
+				AF2204E81CBF2F0F00D90C74 /* LPTranslucentNavigationController.m */,
+				AF2205021CBF930700D90C74 /* LPTranslucentViewController.h */,
+				AF2205031CBF930700D90C74 /* LPTranslucentViewController.m */,
+			);
+			name = Translucent;
+			sourceTree = "<group>";
+		};
+		AF2204F31CBF911400D90C74 /* Hidden */ = {
+			isa = PBXGroup;
+			children = (
+				AF2204F61CBF923800D90C74 /* HiddenViewController.h */,
+				AF2204F71CBF923800D90C74 /* HiddenViewController.m */,
+				AF2204F91CBF928300D90C74 /* HiddenViewControllerTranslucent.h */,
+				AF2204FA1CBF928300D90C74 /* HiddenViewControllerTranslucent.m */,
+			);
+			name = Hidden;
+			sourceTree = "<group>";
+		};
+		AF2204F41CBF911B00D90C74 /* Opaque */ = {
+			isa = PBXGroup;
+			children = (
+				AF2204FC1CBF92A000D90C74 /* OpaqueViewController.h */,
+				AF2204FD1CBF92A000D90C74 /* OpaqueViewController.m */,
+				AF2204FF1CBF92C200D90C74 /* OpaqueViewControllerTranslucent.h */,
+				AF2205001CBF92C200D90C74 /* OpaqueViewControllerTranslucent.m */,
+			);
+			name = Opaque;
+			sourceTree = "<group>";
+		};
+		AF2204F51CBF912300D90C74 /* Translucent */ = {
+			isa = PBXGroup;
+			children = (
+				AF2205051CBF933E00D90C74 /* TranslucentViewController.h */,
+				AF2205061CBF933E00D90C74 /* TranslucentViewController.m */,
+				AF2205081CBF934E00D90C74 /* TranslucentViewControllerTranslucent.h */,
+				AF2205091CBF934E00D90C74 /* TranslucentViewControllerTranslucent.m */,
+			);
+			name = Translucent;
+			sourceTree = "<group>";
+		};
+		AF22050B1CBF956500D90C74 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				AF2C2E281CBDD53300963156 /* ViewController.h */,
+				AF2C2E291CBDD53300963156 /* ViewController.m */,
+			);
+			name = Native;
+			sourceTree = "<group>";
+		};
+		AF22050F1CBFA1EF00D90C74 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				AF22050C1CBF9CD400D90C74 /* LPBaseViewController.h */,
+				AF22050D1CBF9CD400D90C74 /* LPBaseViewController.m */,
+				AF2205101CBFA21800D90C74 /* LPBaseNavigationController.h */,
+				AF2205111CBFA21800D90C74 /* LPBaseNavigationController.m */,
+			);
+			name = Native;
+			sourceTree = "<group>";
+		};
+		AF2C2DF71CBDD30800963156 = {
+			isa = PBXGroup;
+			children = (
+				AF2C2E1F1CBDD4EE00963156 /* LPNavigationController */,
+				AF2C2E021CBDD30800963156 /* LPNavigationControllerDemo */,
+				AF2C2E011CBDD30800963156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2C2E011CBDD30800963156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF2C2E001CBDD30800963156 /* LPNavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2C2E021CBDD30800963156 /* LPNavigationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF2204F31CBF911400D90C74 /* Hidden */,
+				AF2204F41CBF911B00D90C74 /* Opaque */,
+				AF2204F51CBF912300D90C74 /* Translucent */,
+				AF22050B1CBF956500D90C74 /* Native */,
+				AF2C2E201CBDD53300963156 /* AppDelegate.h */,
+				AF2C2E211CBDD53300963156 /* AppDelegate.m */,
+				AF2C2E221CBDD53300963156 /* Assets.xcassets */,
+				AF2C2E031CBDD30800963156 /* Supporting Files */,
+			);
+			name = LPNavigationControllerDemo;
+			path = LPNavigationController;
+			sourceTree = "<group>";
+		};
+		AF2C2E031CBDD30800963156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF2C2E241CBDD53300963156 /* Info.plist */,
+				AF2C2E251CBDD53300963156 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF2C2E1F1CBDD4EE00963156 /* LPNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				AF2204ED1CBF65FA00D90C74 /* Hidden */,
+				AF2204EE1CBF860800D90C74 /* Opaque */,
+				AF2204F21CBF90E900D90C74 /* Translucent */,
+				AF22050F1CBFA1EF00D90C74 /* Native */,
+				AF2204DE1CBE8C2600D90C74 /* UITableViewGenerator.h */,
+				AF2204DF1CBE8C2600D90C74 /* UITableViewGenerator.m */,
+			);
+			name = LPNavigationController;
+			path = ../LPNavigationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF2C2DFF1CBDD30800963156 /* LPNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2C2E171CBDD30900963156 /* Build configuration list for PBXNativeTarget "LPNavigationController" */;
+			buildPhases = (
+				AF2C2DFC1CBDD30800963156 /* Sources */,
+				AF2C2DFD1CBDD30800963156 /* Frameworks */,
+				AF2C2DFE1CBDD30800963156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPNavigationController;
+			productName = LPNavigationController;
+			productReference = AF2C2E001CBDD30800963156 /* LPNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2C2DF81CBDD30800963156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = loopeer;
+				TargetAttributes = {
+					AF2C2DFF1CBDD30800963156 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RR838T8FGP;
+					};
+				};
+			};
+			buildConfigurationList = AF2C2DFB1CBDD30800963156 /* Build configuration list for PBXProject "LPNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2C2DF71CBDD30800963156;
+			productRefGroup = AF2C2E011CBDD30800963156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF2C2DFF1CBDD30800963156 /* LPNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF2C2DFE1CBDD30800963156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2C2E2B1CBDD53300963156 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF2C2DFC1CBDD30800963156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF22050A1CBF934E00D90C74 /* TranslucentViewControllerTranslucent.m in Sources */,
+				AF2204E01CBE8C2600D90C74 /* UITableViewGenerator.m in Sources */,
+				AF2205121CBFA21800D90C74 /* LPBaseNavigationController.m in Sources */,
+				AF2204FE1CBF92A000D90C74 /* OpaqueViewController.m in Sources */,
+				AF2204E91CBF2F0F00D90C74 /* LPTranslucentNavigationController.m in Sources */,
+				AF2204E61CBF2EB600D90C74 /* LPHiddenNavigationController.m in Sources */,
+				AF2204EC1CBF331900D90C74 /* LPHiddenViewController.m in Sources */,
+				AF2204F81CBF923800D90C74 /* HiddenViewController.m in Sources */,
+				AF2205011CBF92C200D90C74 /* OpaqueViewControllerTranslucent.m in Sources */,
+				AF2205071CBF933E00D90C74 /* TranslucentViewController.m in Sources */,
+				AF2C2E2A1CBDD53300963156 /* AppDelegate.m in Sources */,
+				AF2C2E2D1CBDD53300963156 /* main.m in Sources */,
+				AF2204E31CBF2E8700D90C74 /* LPOpaqueNavigationController.m in Sources */,
+				AF22050E1CBF9CD400D90C74 /* LPBaseViewController.m in Sources */,
+				AF2C2E2F1CBDD53300963156 /* ViewController.m in Sources */,
+				AF2204FB1CBF928300D90C74 /* HiddenViewControllerTranslucent.m in Sources */,
+				AF2205041CBF930700D90C74 /* LPTranslucentViewController.m in Sources */,
+				AF2204F11CBF864700D90C74 /* LPOpaqueViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF2C2E151CBDD30900963156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF2C2E161CBDD30900963156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2C2E181CBDD30900963156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/LPNavigationControllerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.LPNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AF2C2E191CBDD30900963156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/LPNavigationControllerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.LPNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2C2DFB1CBDD30800963156 /* Build configuration list for PBXProject "LPNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2C2E151CBDD30900963156 /* Debug */,
+				AF2C2E161CBDD30900963156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2C2E171CBDD30900963156 /* Build configuration list for PBXNativeTarget "LPNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2C2E181CBDD30900963156 /* Debug */,
+				AF2C2E191CBDD30900963156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2C2DF81CBDD30800963156 /* Project object */;
+}
