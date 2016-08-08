@@ -26,6 +26,7 @@
 		AF2C2E2B1CBDD53300963156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2C2E221CBDD53300963156 /* Assets.xcassets */; };
 		AF2C2E2D1CBDD53300963156 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C2E251CBDD53300963156 /* main.m */; };
 		AF2C2E2F1CBDD53300963156 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C2E291CBDD53300963156 /* ViewController.m */; };
+		AF59F0641D58D143004899BD /* UIViewController+HideBottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AF59F0631D58D143004899BD /* UIViewController+HideBottomLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		AF2C2E251CBDD53300963156 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LPNavigationControllerDemo/main.m; sourceTree = SOURCE_ROOT; };
 		AF2C2E281CBDD53300963156 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = LPNavigationControllerDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
 		AF2C2E291CBDD53300963156 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = LPNavigationControllerDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		AF59F0621D58D143004899BD /* UIViewController+HideBottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HideBottomLine.h"; sourceTree = "<group>"; };
+		AF59F0631D58D143004899BD /* UIViewController+HideBottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HideBottomLine.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 		AF2204F21CBF90E900D90C74 /* Translucent */ = {
 			isa = PBXGroup;
 			children = (
+				AF59F0621D58D143004899BD /* UIViewController+HideBottomLine.h */,
+				AF59F0631D58D143004899BD /* UIViewController+HideBottomLine.m */,
 				AF2204E71CBF2F0F00D90C74 /* LPTranslucentNavigationController.h */,
 				AF2204E81CBF2F0F00D90C74 /* LPTranslucentNavigationController.m */,
 				AF2205021CBF930700D90C74 /* LPTranslucentViewController.h */,
@@ -298,6 +303,7 @@
 				AF2204E91CBF2F0F00D90C74 /* LPTranslucentNavigationController.m in Sources */,
 				AF2204E61CBF2EB600D90C74 /* LPHiddenNavigationController.m in Sources */,
 				AF2204EC1CBF331900D90C74 /* LPHiddenViewController.m in Sources */,
+				AF59F0641D58D143004899BD /* UIViewController+HideBottomLine.m in Sources */,
 				AF2204F81CBF923800D90C74 /* HiddenViewController.m in Sources */,
 				AF2205011CBF92C200D90C74 /* OpaqueViewControllerTranslucent.m in Sources */,
 				AF2205071CBF933E00D90C74 /* TranslucentViewController.m in Sources */,
@@ -407,7 +413,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/LPNavigationControllerDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.LPNavigationController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xf.navigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -423,7 +429,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/LPNavigationControllerDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loopeer.LPNavigationController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xf.navigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

@@ -8,12 +8,21 @@
 
 #import "LPTranslucentViewController.h"
 #import "LPTranslucentNavigationController.h"
+#import "UIViewController+HideBottomLine.h"
 
 @interface LPTranslucentNavigationController () <UINavigationControllerDelegate>
 
 @end
 
 @implementation LPTranslucentNavigationController
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        [self hideBottomLineInView:self.navigationBar];
+    }
+    return self;
+}
 
 - (void)pushViewController:(LPTranslucentViewController *)viewController animated:(BOOL)animated {
     LPTranslucentViewController *currentVC = self.viewControllers.lastObject;

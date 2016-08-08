@@ -8,6 +8,7 @@
 
 #import "LPTranslucentViewController.h"
 #import "LPTranslucentNavigationController.h"
+#import "UIViewController+HideBottomLine.h"
 
 @implementation LPTranslucentViewController {
     UINavigationBar *_bar;
@@ -17,10 +18,13 @@
     _bar = [[UINavigationBar alloc] init];
     if ([self useTransparentNavigationBar]) {
         [_bar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-//        [_bar setShadowImage:[UIImage new]];
+        [self hideBottomLineInView:_bar];
+        //[_bar setShadowImage:[UIImage new]];
     } else {
         [_bar setBackgroundImage:[UINavigationBar.appearance backgroundImageForBarMetrics:UIBarMetricsDefault] forBarMetrics:UIBarMetricsDefault];
-//        [_bar setShadowImage:[UINavigationBar.appearance shadowImage]];
+        [self hideBottomLineInView:self.navigationController.navigationBar];
+        [self showBottomLineInView:_bar];
+        //[_bar setShadowImage:[UINavigationBar.appearance shadowImage]];
     }
     _bar.barStyle = UINavigationBar.appearance.barStyle;
     _bar.translucent = YES;
@@ -40,7 +44,8 @@
     [self removeFakeNavBar];
     if (((LPTranslucentNavigationController *)self.navigationController).shouldAddFakeNavigationBar) {
         [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-//        [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+        [self hideBottomLineInView:self.navigationController.navigationBar];
+        //[self.navigationController.navigationBar setShadowImage:[UIImage new]];
         [self addFakeNavBar];
     }
 }
@@ -52,7 +57,8 @@
         self.navigationController.navigationBar.barStyle = UINavigationBar.appearance.barStyle;
         self.navigationController.navigationBar.translucent = YES;
         [self.navigationController.navigationBar setBackgroundImage:[UINavigationBar.appearance backgroundImageForBarMetrics:UIBarMetricsDefault] forBarMetrics:UIBarMetricsDefault];
-//        [self.navigationController.navigationBar setShadowImage:[UINavigationBar.appearance shadowImage]];
+        [self showBottomLineInView:self.navigationController.navigationBar];
+        //[self.navigationController.navigationBar setShadowImage:[UINavigationBar.appearance shadowImage]];
     }
     [self removeFakeNavBar];
 }
