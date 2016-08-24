@@ -16,6 +16,6 @@ typedef NS_ENUM(NSInteger, XFContentFragmentType) {
 @interface XFContentFragmentModel : NSObject
 
 @property (nonatomic, assign) XFContentFragmentType type;
-@property (nonatomic, assign) NSString *value;
+@property (nonatomic, copy) NSString *value;
 
 @end
