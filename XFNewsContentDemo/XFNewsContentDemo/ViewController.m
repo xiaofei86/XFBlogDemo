@@ -52,11 +52,6 @@
     self.navigationItem.rightBarButtonItems = @[item1, item2, item3];
 }
 
-- (void)dealloc {
-    _jsExport = nil;
-    [_webView stringByEvaluatingJavaScriptFromString:@"clearContext();"];
-}
-
 #pragma mark - UIWebViewDelegate
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
