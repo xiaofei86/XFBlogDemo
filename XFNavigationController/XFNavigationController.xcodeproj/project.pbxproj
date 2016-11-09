@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4050501DC2DEFF005B3525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF40504F1DC2DEFF005B3525 /* main.m */; };
+		AF4050531DC2DEFF005B3525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050521DC2DEFF005B3525 /* AppDelegate.m */; };
+		AF4050561DC2DEFF005B3525 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050551DC2DEFF005B3525 /* ViewController.m */; };
+		AF40505B1DC2DEFF005B3525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF40505A1DC2DEFF005B3525 /* Assets.xcassets */; };
+		AF40505E1DC2DEFF005B3525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF40505C1DC2DEFF005B3525 /* LaunchScreen.storyboard */; };
+		AF4050781DC2DF97005B3525 /* UITableViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050671DC2DF97005B3525 /* UITableViewGenerator.m */; };
+		AF4050791DC2DF97005B3525 /* UIViewController+HideBottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050691DC2DF97005B3525 /* UIViewController+HideBottomLine.m */; };
+		AF40507A1DC2DF97005B3525 /* XFBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF40506B1DC2DF97005B3525 /* XFBaseNavigationController.m */; };
+		AF40507B1DC2DF97005B3525 /* XFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF40506D1DC2DF97005B3525 /* XFBaseViewController.m */; };
+		AF40507C1DC2DF97005B3525 /* XFHiddenNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF40506F1DC2DF97005B3525 /* XFHiddenNavigationController.m */; };
+		AF40507D1DC2DF97005B3525 /* XFHiddenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050711DC2DF97005B3525 /* XFHiddenViewController.m */; };
+		AF40507E1DC2DF97005B3525 /* XFOpaqueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050731DC2DF97005B3525 /* XFOpaqueNavigationController.m */; };
+		AF40507F1DC2DF97005B3525 /* XFOpaqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050751DC2DF97005B3525 /* XFOpaqueViewController.m */; };
+		AF4050801DC2DF97005B3525 /* XFTranslucentNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050771DC2DF97005B3525 /* XFTranslucentNavigationController.m */; };
+		AF40508C1DC2E081005B3525 /* OpaqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050841DC2E081005B3525 /* OpaqueViewController.m */; };
+		AF40508D1DC2E081005B3525 /* OpaqueViewControllerTranslucent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050861DC2E081005B3525 /* OpaqueViewControllerTranslucent.m */; };
+		AF40508E1DC2E081005B3525 /* TranslucentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050881DC2E081005B3525 /* TranslucentViewController.m */; };
+		AF40508F1DC2E081005B3525 /* TranslucentViewControllerTranslucent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF40508A1DC2E081005B3525 /* TranslucentViewControllerTranslucent.m */; };
+		AF4050931DC2E08B005B3525 /* HiddenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050911DC2E08B005B3525 /* HiddenViewController.m */; };
+		AF40509A1DC2E199005B3525 /* XFTranslucentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4050991DC2E199005B3525 /* XFTranslucentViewController.m */; };
+		AF4050A01DC2E24A005B3525 /* HiddenViewControllerTranslucent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF40509F1DC2E24A005B3525 /* HiddenViewControllerTranslucent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF40504B1DC2DEFF005B3525 /* XFNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF40504F1DC2DEFF005B3525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF4050511DC2DEFF005B3525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF4050521DC2DEFF005B3525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF4050541DC2DEFF005B3525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF4050551DC2DEFF005B3525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF40505A1DC2DEFF005B3525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF40505D1DC2DEFF005B3525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF40505F1DC2DEFF005B3525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4050661DC2DF97005B3525 /* UITableViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewGenerator.h; sourceTree = "<group>"; };
+		AF4050671DC2DF97005B3525 /* UITableViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewGenerator.m; sourceTree = "<group>"; };
+		AF4050681DC2DF97005B3525 /* UIViewController+HideBottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HideBottomLine.h"; sourceTree = "<group>"; };
+		AF4050691DC2DF97005B3525 /* UIViewController+HideBottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HideBottomLine.m"; sourceTree = "<group>"; };
+		AF40506A1DC2DF97005B3525 /* XFBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFBaseNavigationController.h; sourceTree = "<group>"; };
+		AF40506B1DC2DF97005B3525 /* XFBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFBaseNavigationController.m; sourceTree = "<group>"; };
+		AF40506C1DC2DF97005B3525 /* XFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFBaseViewController.h; sourceTree = "<group>"; };
+		AF40506D1DC2DF97005B3525 /* XFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFBaseViewController.m; sourceTree = "<group>"; };
+		AF40506E1DC2DF97005B3525 /* XFHiddenNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFHiddenNavigationController.h; sourceTree = "<group>"; };
+		AF40506F1DC2DF97005B3525 /* XFHiddenNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFHiddenNavigationController.m; sourceTree = "<group>"; };
+		AF4050701DC2DF97005B3525 /* XFHiddenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFHiddenViewController.h; sourceTree = "<group>"; };
+		AF4050711DC2DF97005B3525 /* XFHiddenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFHiddenViewController.m; sourceTree = "<group>"; };
+		AF4050721DC2DF97005B3525 /* XFOpaqueNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFOpaqueNavigationController.h; sourceTree = "<group>"; };
+		AF4050731DC2DF97005B3525 /* XFOpaqueNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFOpaqueNavigationController.m; sourceTree = "<group>"; };
+		AF4050741DC2DF97005B3525 /* XFOpaqueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFOpaqueViewController.h; sourceTree = "<group>"; };
+		AF4050751DC2DF97005B3525 /* XFOpaqueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFOpaqueViewController.m; sourceTree = "<group>"; };
+		AF4050761DC2DF97005B3525 /* XFTranslucentNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFTranslucentNavigationController.h; sourceTree = "<group>"; };
+		AF4050771DC2DF97005B3525 /* XFTranslucentNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFTranslucentNavigationController.m; sourceTree = "<group>"; };
+		AF4050831DC2E081005B3525 /* OpaqueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpaqueViewController.h; sourceTree = "<group>"; };
+		AF4050841DC2E081005B3525 /* OpaqueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpaqueViewController.m; sourceTree = "<group>"; };
+		AF4050851DC2E081005B3525 /* OpaqueViewControllerTranslucent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpaqueViewControllerTranslucent.h; sourceTree = "<group>"; };
+		AF4050861DC2E081005B3525 /* OpaqueViewControllerTranslucent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpaqueViewControllerTranslucent.m; sourceTree = "<group>"; };
+		AF4050871DC2E081005B3525 /* TranslucentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslucentViewController.h; sourceTree = "<group>"; };
+		AF4050881DC2E081005B3525 /* TranslucentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslucentViewController.m; sourceTree = "<group>"; };
+		AF4050891DC2E081005B3525 /* TranslucentViewControllerTranslucent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslucentViewControllerTranslucent.h; sourceTree = "<group>"; };
+		AF40508A1DC2E081005B3525 /* TranslucentViewControllerTranslucent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslucentViewControllerTranslucent.m; sourceTree = "<group>"; };
+		AF4050901DC2E08B005B3525 /* HiddenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenViewController.h; sourceTree = "<group>"; };
+		AF4050911DC2E08B005B3525 /* HiddenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenViewController.m; sourceTree = "<group>"; };
+		AF4050921DC2E08B005B3525 /* HiddenViewControllerTranslucent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenViewControllerTranslucent.h; sourceTree = "<group>"; };
+		AF4050981DC2E199005B3525 /* XFTranslucentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFTranslucentViewController.h; sourceTree = "<group>"; };
+		AF4050991DC2E199005B3525 /* XFTranslucentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFTranslucentViewController.m; sourceTree = "<group>"; };
+		AF40509F1DC2E24A005B3525 /* HiddenViewControllerTranslucent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenViewControllerTranslucent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4050481DC2DEFF005B3525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4050421DC2DEFF005B3525 = {
+			isa = PBXGroup;
+			children = (
+				AF4050651DC2DF97005B3525 /* NavigationControllers */,
+				AF40504D1DC2DEFF005B3525 /* XFNavigationController */,
+				AF40504C1DC2DEFF005B3525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF40504C1DC2DEFF005B3525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF40504B1DC2DEFF005B3525 /* XFNavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF40504D1DC2DEFF005B3525 /* XFNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				AF40509E1DC2E1EC005B3525 /* Hidden */,
+				AF40509D1DC2E1EA005B3525 /* Opaque */,
+				AF40509C1DC2E1E8005B3525 /* Translucent */,
+				AF4050511DC2DEFF005B3525 /* AppDelegate.h */,
+				AF4050521DC2DEFF005B3525 /* AppDelegate.m */,
+				AF4050541DC2DEFF005B3525 /* ViewController.h */,
+				AF4050551DC2DEFF005B3525 /* ViewController.m */,
+				AF40505A1DC2DEFF005B3525 /* Assets.xcassets */,
+				AF40505C1DC2DEFF005B3525 /* LaunchScreen.storyboard */,
+				AF40505F1DC2DEFF005B3525 /* Info.plist */,
+				AF40504E1DC2DEFF005B3525 /* Supporting Files */,
+			);
+			path = XFNavigationController;
+			sourceTree = "<group>";
+		};
+		AF40504E1DC2DEFF005B3525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF40504F1DC2DEFF005B3525 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF4050651DC2DF97005B3525 /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF4050971DC2E112005B3525 /* Hidden */,
+				AF4050961DC2E110005B3525 /* Opaque */,
+				AF4050951DC2E10D005B3525 /* Translucent */,
+				AF4050941DC2E10B005B3525 /* Native */,
+				AF4050661DC2DF97005B3525 /* UITableViewGenerator.h */,
+				AF4050671DC2DF97005B3525 /* UITableViewGenerator.m */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		AF4050941DC2E10B005B3525 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				AF40506A1DC2DF97005B3525 /* XFBaseNavigationController.h */,
+				AF40506B1DC2DF97005B3525 /* XFBaseNavigationController.m */,
+				AF40506C1DC2DF97005B3525 /* XFBaseViewController.h */,
+				AF40506D1DC2DF97005B3525 /* XFBaseViewController.m */,
+			);
+			name = Native;
+			sourceTree = "<group>";
+		};
+		AF4050951DC2E10D005B3525 /* Translucent */ = {
+			isa = PBXGroup;
+			children = (
+				AF4050681DC2DF97005B3525 /* UIViewController+HideBottomLine.h */,
+				AF4050691DC2DF97005B3525 /* UIViewController+HideBottomLine.m */,
+				AF4050761DC2DF97005B3525 /* XFTranslucentNavigationController.h */,
+				AF4050771DC2DF97005B3525 /* XFTranslucentNavigationController.m */,
+				AF4050981DC2E199005B3525 /* XFTranslucentViewController.h */,
+				AF4050991DC2E199005B3525 /* XFTranslucentViewController.m */,
+			);
+			name = Translucent;
+			sourceTree = "<group>";
+		};
+		AF4050961DC2E110005B3525 /* Opaque */ = {
+			isa = PBXGroup;
+			children = (
+				AF4050721DC2DF97005B3525 /* XFOpaqueNavigationController.h */,
+				AF4050731DC2DF97005B3525 /* XFOpaqueNavigationController.m */,
+				AF4050741DC2DF97005B3525 /* XFOpaqueViewController.h */,
+				AF4050751DC2DF97005B3525 /* XFOpaqueViewController.m */,
+			);
+			name = Opaque;
+			sourceTree = "<group>";
+		};
+		AF4050971DC2E112005B3525 /* Hidden */ = {
+			isa = PBXGroup;
+			children = (
+				AF40506E1DC2DF97005B3525 /* XFHiddenNavigationController.h */,
+				AF40506F1DC2DF97005B3525 /* XFHiddenNavigationController.m */,
+				AF4050701DC2DF97005B3525 /* XFHiddenViewController.h */,
+				AF4050711DC2DF97005B3525 /* XFHiddenViewController.m */,
+			);
+			name = Hidden;
+			sourceTree = "<group>";
+		};
+		AF40509C1DC2E1E8005B3525 /* Translucent */ = {
+			isa = PBXGroup;
+			children = (
+				AF4050871DC2E081005B3525 /* TranslucentViewController.h */,
+				AF4050881DC2E081005B3525 /* TranslucentViewController.m */,
+				AF4050891DC2E081005B3525 /* TranslucentViewControllerTranslucent.h */,
+				AF40508A1DC2E081005B3525 /* TranslucentViewControllerTranslucent.m */,
+			);
+			name = Translucent;
+			sourceTree = "<group>";
+		};
+		AF40509D1DC2E1EA005B3525 /* Opaque */ = {
+			isa = PBXGroup;
+			children = (
+				AF4050831DC2E081005B3525 /* OpaqueViewController.h */,
+				AF4050841DC2E081005B3525 /* OpaqueViewController.m */,
+				AF4050851DC2E081005B3525 /* OpaqueViewControllerTranslucent.h */,
+				AF4050861DC2E081005B3525 /* OpaqueViewControllerTranslucent.m */,
+			);
+			name = Opaque;
+			sourceTree = "<group>";
+		};
+		AF40509E1DC2E1EC005B3525 /* Hidden */ = {
+			isa = PBXGroup;
+			children = (
+				AF4050901DC2E08B005B3525 /* HiddenViewController.h */,
+				AF4050911DC2E08B005B3525 /* HiddenViewController.m */,
+				AF4050921DC2E08B005B3525 /* HiddenViewControllerTranslucent.h */,
+				AF40509F1DC2E24A005B3525 /* HiddenViewControllerTranslucent.m */,
+			);
+			name = Hidden;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF40504A1DC2DEFF005B3525 /* XFNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4050621DC2DEFF005B3525 /* Build configuration list for PBXNativeTarget "XFNavigationController" */;
+			buildPhases = (
+				AF4050471DC2DEFF005B3525 /* Sources */,
+				AF4050481DC2DEFF005B3525 /* Frameworks */,
+				AF4050491DC2DEFF005B3525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFNavigationController;
+			productName = XFNavigationController;
+			productReference = AF40504B1DC2DEFF005B3525 /* XFNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4050431DC2DEFF005B3525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = XuYafei;
+				TargetAttributes = {
+					AF40504A1DC2DEFF005B3525 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 975UV32A32;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AF4050461DC2DEFF005B3525 /* Build configuration list for PBXProject "XFNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4050421DC2DEFF005B3525;
+			productRefGroup = AF40504C1DC2DEFF005B3525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF40504A1DC2DEFF005B3525 /* XFNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4050491DC2DEFF005B3525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF40505E1DC2DEFF005B3525 /* LaunchScreen.storyboard in Resources */,
+				AF40505B1DC2DEFF005B3525 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4050471DC2DEFF005B3525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4050A01DC2E24A005B3525 /* HiddenViewControllerTranslucent.m in Sources */,
+				AF40509A1DC2E199005B3525 /* XFTranslucentViewController.m in Sources */,
+				AF40508F1DC2E081005B3525 /* TranslucentViewControllerTranslucent.m in Sources */,
+				AF40507B1DC2DF97005B3525 /* XFBaseViewController.m in Sources */,
+				AF40507A1DC2DF97005B3525 /* XFBaseNavigationController.m in Sources */,
+				AF40507F1DC2DF97005B3525 /* XFOpaqueViewController.m in Sources */,
+				AF4050561DC2DEFF005B3525 /* ViewController.m in Sources */,
+				AF40507D1DC2DF97005B3525 /* XFHiddenViewController.m in Sources */,
+				AF4050781DC2DF97005B3525 /* UITableViewGenerator.m in Sources */,
+				AF4050791DC2DF97005B3525 /* UIViewController+HideBottomLine.m in Sources */,
+				AF40507E1DC2DF97005B3525 /* XFOpaqueNavigationController.m in Sources */,
+				AF40508E1DC2E081005B3525 /* TranslucentViewController.m in Sources */,
+				AF4050931DC2E08B005B3525 /* HiddenViewController.m in Sources */,
+				AF40508D1DC2E081005B3525 /* OpaqueViewControllerTranslucent.m in Sources */,
+				AF4050531DC2DEFF005B3525 /* AppDelegate.m in Sources */,
+				AF4050501DC2DEFF005B3525 /* main.m in Sources */,
+				AF40508C1DC2E081005B3525 /* OpaqueViewController.m in Sources */,
+				AF40507C1DC2DF97005B3525 /* XFHiddenNavigationController.m in Sources */,
+				AF4050801DC2DF97005B3525 /* XFTranslucentNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF40505C1DC2DEFF005B3525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF40505D1DC2DEFF005B3525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4050601DC2DEFF005B3525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF4050611DC2DEFF005B3525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4050631DC2DEFF005B3525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975UV32A32;
+				INFOPLIST_FILE = XFNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyf.XFNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3428ff0d-187c-4409-9995-c6cc2ff18ee0";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Development";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AF4050641DC2DEFF005B3525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 975UV32A32;
+				INFOPLIST_FILE = XFNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyf.XFNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16276280-edd5-422e-9160-062b962dfce2";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Ad Hoc";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4050461DC2DEFF005B3525 /* Build configuration list for PBXProject "XFNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4050601DC2DEFF005B3525 /* Debug */,
+				AF4050611DC2DEFF005B3525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4050621DC2DEFF005B3525 /* Build configuration list for PBXNativeTarget "XFNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4050631DC2DEFF005B3525 /* Debug */,
+				AF4050641DC2DEFF005B3525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4050431DC2DEFF005B3525 /* Project object */;
+}
