@@ -2,7 +2,6 @@
 
 This repository is all my blog Demo.  
 
->
 <a href="http://weibo.com/xuyafei86">
 <img src="http://o74he8slr.bkt.clouddn.com/follow_sina.png", width=32px></a>
 <a href="http://www.jianshu.com/users/2555924d8c6e">
