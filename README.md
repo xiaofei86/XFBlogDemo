@@ -1,10 +1,14 @@
 # XFBlogDemo
 
-This repository is all my blog Demo.
+This repository is all my blog Demo.  
 
->[博客：xuyafei.cn](http://xuyafei.cn)  
-[简书：jianshu.com/users/2555924d8c6e](http://www.jianshu.com/users/2555924d8c6e)  
-[微博：weibo.com/xuyafei86](http://weibo.com/xuyafei86)  
+>
+<a href="http://weibo.com/xuyafei86">
+<img src="http://o74he8slr.bkt.clouddn.com/follow_sina.png", style="width:32px;margin-right:2px"></a>
+<a href="http://www.jianshu.com/users/2555924d8c6e">
+<img src="http://o74he8slr.bkt.clouddn.com/follow_jianshu.png", style="width:32px;margin-right:2px"></a>
+<a href="https://github.com/xiaofei86">
+<img src="http://o74he8slr.bkt.clouddn.com/follow_blog.png", style="width:32px;margin-right:2px"></a>
 
 ---
 
