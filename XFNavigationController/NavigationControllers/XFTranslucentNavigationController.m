@@ -8,21 +8,12 @@
 
 #import "XFTranslucentViewController.h"
 #import "XFTranslucentNavigationController.h"
-#import "UIViewController+HideBottomLine.h"
 
 @interface XFTranslucentNavigationController () <UINavigationControllerDelegate>
 
 @end
 
 @implementation XFTranslucentNavigationController
-
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        [self hideBottomLineInView:self.navigationBar];
-    }
-    return self;
-}
 
 - (void)pushViewController:(XFTranslucentViewController *)viewController animated:(BOOL)animated {
     XFTranslucentViewController *currentVC = self.viewControllers.lastObject;

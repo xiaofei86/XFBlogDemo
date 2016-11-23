@@ -429,7 +429,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3428ff0d-187c-4409-9995-c6cc2ff18ee0";
 				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Development";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -446,7 +446,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "16276280-edd5-422e-9160-062b962dfce2";
 				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Ad Hoc";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -469,6 +469,7 @@
 				AF4050641DC2DEFF005B3525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

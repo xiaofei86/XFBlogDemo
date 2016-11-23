@@ -16,20 +16,19 @@
 
 - (void)addFakeNavBar {
     _bar = [[UINavigationBar alloc] init];
+    _bar.barStyle = UINavigationBar.appearance.barStyle;
+    _bar.translucent = YES;
+    [self.view addSubview:_bar];
+    [_bar setFrame:CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, 64)];
     if ([self useTransparentNavigationBar]) {
         [_bar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
         [self hideBottomLineInView:_bar];
         //[_bar setShadowImage:[UIImage new]];
     } else {
         [_bar setBackgroundImage:[UINavigationBar.appearance backgroundImageForBarMetrics:UIBarMetricsDefault] forBarMetrics:UIBarMetricsDefault];
-        [self hideBottomLineInView:self.navigationController.navigationBar];
         [self showBottomLineInView:_bar];
         //[_bar setShadowImage:[UINavigationBar.appearance shadowImage]];
     }
-    _bar.barStyle = UINavigationBar.appearance.barStyle;
-    _bar.translucent = YES;
-    [self.view addSubview:_bar];
-    [_bar setFrame:CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, 64)];
 }
 
 - (void)removeFakeNavBar {
