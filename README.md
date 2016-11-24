@@ -7,7 +7,7 @@ This repository is all my blog Demo.
 <a href="http://www.jianshu.com/users/2555924d8c6e">
 <img src="http://o74he8slr.bkt.clouddn.com/follow_jianshu.png", width=32px></a>
 <a href="https://github.com/xiaofei86">
-<img src="http://o74he8slr.bkt.clouddn.com/follow_blog.png", width=32px></a>
+<img src="http://o74he8slr.bkt.clouddn.com/follow_blog3.png", width=32px></a>
 
 ---
 
