@@ -37,18 +37,20 @@
                                    initWithRootViewController:[ViewController new]];
     tabBarController.viewControllers = @[vc0, vc1, vc2, vc3];
     
+    UIImage *image = [UIImage imageNamed:@"blog_item"];
     tabBarController.viewControllers[0].tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Hidden"
-                                                                                   image:nil
+                                                                                   image:image
                                                                            selectedImage:nil];
     tabBarController.viewControllers[1].tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Opaque"
-                                                                                   image:nil
+                                                                                   image:image
                                                                            selectedImage:nil];
     tabBarController.viewControllers[2].tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Translucent"
-                                                                                   image:nil
+                                                                                   image:image
                                                                            selectedImage:nil];
     tabBarController.viewControllers[3].tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Native"
-                                                                                   image:nil
+                                                                                   image:image
                                                                            selectedImage:nil];
+    tabBarController.tabBar.tintColor = [UIColor colorWithRed:38/255.0 green:28/255.0 blue:18/255.0 alpha:1];
     
     _window.rootViewController = tabBarController;
     

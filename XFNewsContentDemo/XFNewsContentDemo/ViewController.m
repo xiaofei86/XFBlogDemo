@@ -34,7 +34,7 @@
     _correlationData = @[[XFNewsListModel new], [XFNewsListModel new], [XFNewsListModel new]];
     
     NSURL *templateURL = [[NSBundle mainBundle] URLForResource:@"XFNewsContent" withExtension:@"html"];
-    _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    _webView = [[UIWebView alloc] initWithFrame:CGRectZero];
     [_webView loadRequest:[NSURLRequest requestWithURL:templateURL]];
     _webView.delegate = self;
     [self.view addSubview:_webView];
@@ -50,6 +50,11 @@
     UIBarButtonItem *item3 = [[UIBarButtonItem alloc] initWithTitle:@"Content" style:UIBarButtonItemStylePlain target:self action:@selector(switchContent:)];
     item3.tag = 1;
     self.navigationItem.rightBarButtonItems = @[item1, item2, item3];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    _webView.frame = self.view.bounds;
 }
 
 #pragma mark - UIWebViewDelegate
