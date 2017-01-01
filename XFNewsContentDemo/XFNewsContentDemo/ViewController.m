@@ -66,16 +66,16 @@
 }
 
 - (void)onload {
-    [self webViewDidFinishLoadcompletely];
+    [self webViewDidFinishLoadCompletely];
     NSLog(@"%@", NSStringFromSelector(_cmd));
 }
 
 - (void)documentReadyStateComplete {
-    [self webViewDidFinishLoadcompletely];
+    [self webViewDidFinishLoadCompletely];
     NSLog(@"%@", NSStringFromSelector(_cmd));
 }
 
-- (void)webViewDidFinishLoadcompletely {
+- (void)webViewDidFinishLoadCompletely {
     [self displayContent];
 }
 
@@ -91,7 +91,7 @@
         NSString *readyState = [webView stringByEvaluatingJavaScriptFromString:@"document.readyState"];
         BOOL complete = [readyState isEqualToString:@"complete"];
         if (complete) {
-            [self webViewDidFinishLoadcompletely];
+            [self webViewDidFinishLoadCompletely];
         } else {
             NSString *jsString =
             @"window.onload = function() {"
