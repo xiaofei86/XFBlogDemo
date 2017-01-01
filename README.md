@@ -11,7 +11,8 @@ This repository is all my blog Demo.
 
 ---
 
-1. [XFNavigationController](http://xuyafei.cn/post/cocoatouch/tou-ming-yu-ban-tou-ming-navigationbar-qie-huan-de-san-chong-fang-an)  
-透明与半透明 NavigationBar 切换的三种方案  
-2. [XFNewsContentDemo](http://xuyafei.cn/post/cocoatouch/tu-wen-hun-pai)  
-使用 WebView + HTML + JavaScript + JSExport 实现图文混排
+1. XFNavigationController  
+[透明与半透明 NavigationBar 切换的三种方案](http://xuyafei.cn/post/cocoatouch/navigationbar)  
+2. XFNewsContentDemo  
+[使用 WebView + HTML + JavaScript + JSExport 实现图文混排](http://xuyafei.cn/post/cocoatouch/tu-wen-hun-pai)  
+[如何准确判断 WebView 加载完成](http://xuyafei.cn/post/cocoatouch/webviewdidfinishload)  
