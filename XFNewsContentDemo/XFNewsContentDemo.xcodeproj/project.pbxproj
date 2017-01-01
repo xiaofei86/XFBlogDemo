@@ -14,7 +14,6 @@
 		AF61E0CD1D67501900A22B57 /* XFNewsContent.html in Resources */ = {isa = PBXBuildFile; fileRef = AF61E0CC1D67501900A22B57 /* XFNewsContent.html */; };
 		AF61E0D01D67519100A22B57 /* XFNewsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF61E0CF1D67519100A22B57 /* XFNewsListModel.m */; };
 		AF61E0D31D67520C00A22B57 /* XFNewsContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF61E0D21D67520C00A22B57 /* XFNewsContentModel.m */; };
-		AF61E0D91D6AF95300A22B57 /* Night.js in Resources */ = {isa = PBXBuildFile; fileRef = AF61E0D81D6AF95300A22B57 /* Night.js */; };
 		AF61E0DB1D6C228C00A22B57 /* Error.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61E0DA1D6C228C00A22B57 /* Error.png */; };
 		AF84AE7D1D6CB10B0063E472 /* XFCorrelationNewsJSExport.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84AE7C1D6CB10B0063E472 /* XFCorrelationNewsJSExport.m */; };
 		AF84AE841D6CB3160063E472 /* XFHTMLConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84AE831D6CB3160063E472 /* XFHTMLConfigurator.m */; };
@@ -38,7 +37,6 @@
 		AF61E0CF1D67519100A22B57 /* XFNewsListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFNewsListModel.m; sourceTree = "<group>"; };
 		AF61E0D11D67520C00A22B57 /* XFNewsContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFNewsContentModel.h; sourceTree = "<group>"; };
 		AF61E0D21D67520C00A22B57 /* XFNewsContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFNewsContentModel.m; sourceTree = "<group>"; };
-		AF61E0D81D6AF95300A22B57 /* Night.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Night.js; sourceTree = "<group>"; };
 		AF61E0DA1D6C228C00A22B57 /* Error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Error.png; sourceTree = "<group>"; };
 		AF84AE7B1D6CB10B0063E472 /* XFCorrelationNewsJSExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCorrelationNewsJSExport.h; sourceTree = "<group>"; };
 		AF84AE7C1D6CB10B0063E472 /* XFCorrelationNewsJSExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCorrelationNewsJSExport.m; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				AF61E0D11D67520C00A22B57 /* XFNewsContentModel.h */,
 				AF61E0D21D67520C00A22B57 /* XFNewsContentModel.m */,
 				AF61E0CC1D67501900A22B57 /* XFNewsContent.html */,
-				AF61E0D81D6AF95300A22B57 /* Night.js */,
 				AFF235331DD75E1900410938 /* Main.storyboard */,
 				AF61E0C11D674B4D00A22B57 /* Assets.xcassets */,
 				AFDD10D11DD75C250076F7E1 /* LaunchScreen.storyboard */,
@@ -188,7 +185,6 @@
 				AFDD10D21DD75C250076F7E1 /* LaunchScreen.storyboard in Resources */,
 				AF61E0C21D674B4D00A22B57 /* Assets.xcassets in Resources */,
 				AF84AE921D6E07060063E472 /* Localizable.strings in Resources */,
-				AF61E0D91D6AF95300A22B57 /* Night.js in Resources */,
 				AF61E0DB1D6C228C00A22B57 /* Error.png in Resources */,
 				AF61E0CD1D67501900A22B57 /* XFNewsContent.html in Resources */,
 			);

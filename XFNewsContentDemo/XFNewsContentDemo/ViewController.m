@@ -11,10 +11,10 @@
 #import "XFNewsContentModel.h"
 #import "XFCorrelationNewsJSExport.h"
 
-#define NilToEmptyString(str)  ((isEmptyString((str))) ? @"" : (str))
-#define isEmptyString(s)  (((s) == nil) || ([(s) stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]].length == 0))
+#define NilToEmptyString(str)  ((IsEmptyString((str))) ? @"" : (str))
+#define IsEmptyString(s)  (((s) == nil) || ([(s) stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]].length == 0))
 
-@interface ViewController () <UIWebViewDelegate>
+@interface ViewController () <UIWebViewDelegate, XFWebViewExportDelegate>
 
 @property (nonatomic, strong) UIWebView *webView;
 @property (nonatomic, strong) JSContext *jsContext;
@@ -33,14 +33,16 @@
     _data = [XFNewsContentModel new];
     _correlationData = @[[XFNewsListModel new], [XFNewsListModel new], [XFNewsListModel new]];
     
-    NSURL *templateURL = [[NSBundle mainBundle] URLForResource:@"XFNewsContent" withExtension:@"html"];
     _webView = [[UIWebView alloc] initWithFrame:CGRectZero];
-    [_webView loadRequest:[NSURLRequest requestWithURL:templateURL]];
     _webView.delegate = self;
     [self.view addSubview:_webView];
     
+    NSURL *templateURL = [[NSBundle mainBundle] URLForResource:@"XFNewsContent" withExtension:@"html"];
+    [_webView loadRequest:[NSURLRequest requestWithURL:templateURL]];
+    //[_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://wappass.baidu.com/passport"]]];
+    
     _jsExport = [XFCorrelationNewsJSExport new];
-    _jsExport.viewController = self;
+    _jsExport.delegate = self;
     
     UISwitch *switchButton = [[UISwitch alloc] initWithFrame:CGRectZero];
     [switchButton addTarget:self action:@selector(switchMode:) forControlEvents:UIControlEventValueChanged];
@@ -57,15 +59,52 @@
     _webView.frame = self.view.bounds;
 }
 
+#pragma mark - XFWebViewExportDelegate
+
+- (void)onClick:(NSInteger)index {
+    [self.navigationController pushViewController:[ViewController new] animated:YES];
+}
+
+- (void)onload {
+    [self webViewDidFinishLoadcompletely];
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)documentReadyStateComplete {
+    [self webViewDidFinishLoadcompletely];
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)webViewDidFinishLoadcompletely {
+    [self displayContent];
+}
+
 #pragma mark - UIWebViewDelegate
 
+- (void)webViewDidStartLoad:(UIWebView *)webView {
+    _jsContext = [_webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+    _jsContext[@"xfNewsContext"] = _jsExport;
+}
+
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    if (!_jsContext) {
-        _jsContext =  [_webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-        _jsContext[@"xfNewsContext"] = _jsExport;
-    }
     if (!webView.isLoading) {
-        [self displayContent];
+        NSString *readyState = [webView stringByEvaluatingJavaScriptFromString:@"document.readyState"];
+        BOOL complete = [readyState isEqualToString:@"complete"];
+        if (complete) {
+            [self webViewDidFinishLoadcompletely];
+        } else {
+            NSString *jsString =
+            @"window.onload = function() {"
+            @"    xfNewsContext.onload();"
+            @"};"
+            @"document.onreadystatechange = function () {"
+            @"    if (document.readyState == \"complete\") {"
+            @"        xfNewsContext.documentReadyStateComplete();"
+            @"    }"
+            @"};";
+            [_webView stringByEvaluatingJavaScriptFromString:jsString];
+        }
+        NSLog(@"%@", NSStringFromSelector(_cmd));
     }
 }
 
@@ -104,7 +143,7 @@
         NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:nil];
         NSString *paramString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
         
-        [jsCode appendFormat:@"addCorrelationData(%@, %d);", paramString, i];
+        [jsCode appendFormat:@"addCorrelationData(%@, %lu, %d);", paramString, (unsigned long)_correlationData.count, i];
     }
     
     [_webView stringByEvaluatingJavaScriptFromString:jsCode];
@@ -123,7 +162,7 @@
 }
 
 - (NSString *)escapeString:(NSString *)str {
-    if (isEmptyString(str) || ![str isKindOfClass:[NSString class]]) {
+    if (IsEmptyString(str) || ![str isKindOfClass:[NSString class]]) {
         return [NSString string];
     }
     NSString *jsString = str;
@@ -138,9 +177,16 @@
 - (void)switchMode:(UISwitch *)switchButton {
     NSString *jsCode = [NSString string];
     if (switchButton.isOn) {
-        jsCode = @"xfNightModeTool.applyNightMode();";
+        NSDictionary *dictionary = @{@"backgroundColor":@"#202125",
+                                     @"titleColor":@"#AEB5C5",
+                                     @"infoColor":@"#4E5057",
+                                     @"contentColor":@"#AEB5C5",
+                                     @"bannerColor":@"#343539"};
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dictionary options:NSJSONWritingPrettyPrinted error:nil];
+        NSString *paramString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        jsCode = [NSString stringWithFormat:@"xfApplyThemeMode(%@);", paramString];
     } else {
-        jsCode = @"xfNightModeTool.removeNightMode();";
+        jsCode = @"xfRemoveThemeMode();";
     }
     [self.webView stringByEvaluatingJavaScriptFromString:jsCode];
 }
